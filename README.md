@@ -1,4 +1,6 @@
 # UL-UNAS
 This is the official implementation of UL-UNAS, an ultra-lightweight speech enhancement U-Net optimized by neural architecture search (NAS).
 
-Audio examples are available at xxx
+The paper has been submitted to *Neural Networks*.
+
+Audio examples are available at [Audio examples of UL-UNAS](https://htmlpreview.github.io/?https://github.com/Xiaobin-Rong/ul-unas_demo/blob/main/index.html).
