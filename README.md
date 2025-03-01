@@ -1,5 +1,5 @@
 # UL-UNAS
-This is the official implementation of UL-UNAS, an ultra-lightweight speech enhancement U-Net optimized by neural architecture search (NAS).
+This is the official repo of UL-UNAS, an ultra-lightweight speech enhancement U-Net optimized by neural architecture search (NAS).
 
 The paper has been submitted to *Neural Networks* and is **under review**.
 
