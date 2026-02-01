@@ -1,6 +1,6 @@
 # UL-UNAS
-[![arxiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg?logo=arXiv)]([https://arxiv.org/abs/2511.13300](https://arxiv.org/abs/2503.00340))
-[![demo](https://img.shields.io/badge/GitHub-Demo-orange.svg)]([https://xiaobin-rong.github.io/pase_demo/](https://xiaobin-rong.github.io/ul-unas_demo/)](https://xiaobin-rong.github.io/ul-unas_demo/))
+[![arxiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2503.00340)
+[![demo](https://img.shields.io/badge/GitHub-Demo-orange.svg)](https://xiaobin-rong.github.io/ul-unas_demo/)
 
 🎉 This is the official implementation of our *IEEE TASLP* paper: 
 
