@@ -8,4 +8,5 @@
 
 ## 🔥 News
 - [**2026-2-3**] The updated paper is uploaded to arxiv.
+- [**2026-2-1**] The pre-trained checkpoint is released.
 - [**2026-1-28**] The model implementation is released.
