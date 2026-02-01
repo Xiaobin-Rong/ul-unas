@@ -114,7 +114,7 @@ class FA(nn.Module):
 
 class cTFA(nn.Module):
     """causal time-frequency attention"""
-    def __init__(self, channels, width, r=2):
+    def __init__(self, channels, width):
         super().__init__()
         self.channels = channels
         self.ta_gru = nn.GRU(channels, channels*2, 1, batch_first=True)
