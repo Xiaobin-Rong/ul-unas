@@ -1,9 +1,11 @@
 # UL-UNAS
-This is the official repo of UL-UNAS, an ultra-lightweight speech enhancement U-Net optimized by neural architecture search (NAS).
+[![arxiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg?logo=arXiv)]([https://arxiv.org/abs/2511.13300](https://arxiv.org/abs/2503.00340))
+[![demo](https://img.shields.io/badge/GitHub-Demo-orange.svg)]([https://xiaobin-rong.github.io/pase_demo/](https://xiaobin-rong.github.io/ul-unas_demo/)](https://xiaobin-rong.github.io/ul-unas_demo/))
+
+🎉 This is the official implementation of our *IEEE TASLP* paper: 
+
+[UL-UNAS: Ultra-Lightweight U-Nets for Real-Time Speech Enhancement via Network Architecture Search](https://arxiv.org/abs/2503.00340)
 
 ## 🔥 News
-- [**2026-1-28**] The model implementation is released. Note that there are some differences between the current model implementation and the description in the arXiv paper, due to some subsequent updates. The latest version of the paper will be uploaded to arXiv after acceptance.
-
-The paper has been submitted to *IEEE TASLP* and is **under review**. [[arxiv link](https://arxiv.org/abs/2503.00340)]
-
-Audio examples are available at [Audio examples of UL-UNAS](https://xiaobin-rong.github.io/ul-unas_demo/).
+- [**2026-2-3**] The updated paper is uploaded to arxiv.
+- [**2026-1-28**] The model implementation is released.
