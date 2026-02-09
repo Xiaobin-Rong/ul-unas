@@ -432,7 +432,8 @@ class Decoder(nn.Module):
         widths,
         kernels,
         strides,
-        groups
+        groups,
+        final_width
     ):
         super().__init__()
         block_types = [XConvBlock, XDWSBlock, XMBBlocks]
@@ -449,7 +450,7 @@ class Decoder(nn.Module):
             in_channels = out_channels
 
         module = block_types[types[0]]
-        de_convs.append(module(in_channels, 1, 129, kernels[0], strides[0], groups[0], use_deconv=True, is_last=True))
+        de_convs.append(module(in_channels, 1, final_width, kernels[0], strides[0], groups[0], use_deconv=True, is_last=True))
         
         self.de_convs = nn.ModuleList(de_convs)
 
@@ -468,6 +469,8 @@ class ULUNAS(nn.Module):
         n_fft=512,
         hop_len=256,
         win_len=512,
+        erb_low=65,
+        erb_high=64,
         types=[0, 2, 1, 2, 1],
         strides=[2, 2, 1, 1, 1],
         groups=[1, 2, 2, 2, 2],
@@ -481,7 +484,7 @@ class ULUNAS(nn.Module):
         self.hop_len = hop_len
         self.win_len = win_len
         
-        self.erb = ERB(65, 64)
+        self.erb = ERB(erb_low, erb_high, nfft=n_fft, high_lim=8000, fs=16000)
 
         self.encoder = Encoder(types, channels, widths, kernels, strides, groups)
         
@@ -490,7 +493,7 @@ class ULUNAS(nn.Module):
                     for i in range(2)]
             )
         
-        self.decoder = Decoder(types, channels, widths, kernels, strides, groups)
+        self.decoder = Decoder(types, channels, widths, kernels, strides, groups, final_width=erb_low+erb_high)
 
     def forward(self, input):
         """
