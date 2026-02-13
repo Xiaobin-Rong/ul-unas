@@ -7,7 +7,7 @@
 [UL-UNAS: Ultra-Lightweight U-Nets for Real-Time Speech Enhancement via Network Architecture Search](https://arxiv.org/abs/2503.00340)
 
 ## 🔥 News
-- [**2026-2-13**] Added streaming inference code thanks to [Kailai Shen](https://github.com/Shenkailai).
+- [**2026-2-13**] Added streaming inference code `ulunas_onnx` implemented by [Kailai Shen](https://github.com/Shenkailai).
 - [**2026-2-3**] The updated paper is uploaded to arxiv.
 - [**2026-2-1**] The pre-trained checkpoint is released.
 - [**2026-1-28**] The model implementation is released.
