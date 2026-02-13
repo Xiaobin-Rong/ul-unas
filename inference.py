@@ -6,7 +6,7 @@ import soundfile as sf
 from tqdm import tqdm
 
 sys.path.append("models")
-from models.ulunas import ULUNAS
+from ulunas import ULUNAS
 
 model_ckpt_path = "./checkpoints/model_trained_on_dns3.tar"
 
