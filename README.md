@@ -10,7 +10,7 @@
 - [**2026-2-13**] Added streaming inference code `ulunas_onnx` implemented by [Kailai Shen](https://github.com/Shenkailai).
 - [**2026-2-4**] The manuscipt is accepted by IEEE TASLP.
 - [**2026-2-3**] The updated paper is uploaded to arxiv.
-- [**2026-2-1**] The pre-trained checkpoint is released.
+- [**2026-2-1**] The pre-trained checkpoint is released ([checkpoints](https://github.com/Xiaobin-Rong/ul-unas/tree/main/checkpoints)).
 - [**2026-1-28**] The model implementation is released.
 
 ## Inference
